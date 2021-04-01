@@ -1,4 +1,4 @@
-![jianshu](https://user-images.githubusercontent.com/14214695/113266650-18cc5d80-9308-11eb-83ed-c0a2bd36cfe0.png)
+
 # data_transfer_code
 
 A new Flutter project.
