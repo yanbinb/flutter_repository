@@ -1,10 +1,15 @@
 import 'package:data_transfer_code/count_container.dart';
 import 'package:data_transfer_code/event_bus_page.dart';
 import 'package:data_transfer_code/notification_widget.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
-void main() {
+void main() async {
   runApp(MyApp());
+  // 将debugPrint指定为同步打印数据
+  // debugPrint = (String message, {int wrapWidth}) =>
+  //     debugPrintSynchronously(message, wrapWidth: wrapWidth);
+  // runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
